@@ -15,3 +15,9 @@ On peut néanmoins essayer ça en réduisant le dico.
 Encodage de la position : l'ordre compte : a/b et b/a c'est pas pareil. Par contre les couples d'entrée sont permutables entre eux.
 
 Minimisation ensuite d'une fonction de cout, par exemple Xentropy. Quantifier overfitting.
+
+Lien des tutos :
+<https://arxiv.org/pdf/1610.02995> pour fitter un pendule simple (!)
+<https://medium.com/@bavalpreetsinghh/transformer-from-scratch-using-pytorch-28a5d1b2e033> transformer un peu bourrin
+<https://buomsoo-kim.github.io/attention/2020/04/21/Attention-mechanism-19.md/> transformer pas à pas
+

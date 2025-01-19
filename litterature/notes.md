@@ -13,7 +13,7 @@ SR prend le meilleur des deux. Usuellement décomposé en deux étapes : choix d
 
 Typical approach = GP. At each iteration consider a range of candidtates, apply BFGS to each of them them select the fittest and make it mutate. Accurate but slow to optimize, and no learning.
 
-Seminal ML approaches to SR problems conserve this 2-step decomposition. Which is an issue in teerms of performance as two skelettons can be closer one to another than a unique one with two sets of constants. Also issue of optimisation (loss potentially nonconvex). ML tend to overfit (see fig 11). Here is performed E2E (end-to-end) regression, at the cost of using a hybrid symbolic-numeric vocabulary (-> so I guess this means a LOT of tokens). Can then refine constants with BFGS ("mitigating nonlinear optimisation issues").
+Seminal ML approaches to SR problems conserve this 2-step decomposition. Which is an issue in terms of performance as two skelettons can be closer one to another than a unique one with two sets of constants. Also issue of optimisation (loss potentially nonconvex). ML tend to overfit (see fig 11). Here is performed E2E (end-to-end) regression, at the cost of using a hybrid symbolic-numeric vocabulary (-> so I guess this means a LOT of tokens). Can then refine constants with BFGS ("mitigating nonlinear optimisation issues").
 
 Fig 1 et 11 compare les différentes approches. Sachant que c'est un peu de la triche de compter ML qui ne fait pas vraiment de la régression symbolique (la solution n'en n'est pas interprétable).
 
