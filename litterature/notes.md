@@ -71,7 +71,7 @@ Unary operators (0-5)
 C'est fait avec le cul mais retenir qu'il faut aller chercher de quoi comparer dans SRbench, ou Feynman. Il se passe des trucs bizarres, par exemple - apparait 3* plus rarement que +. Noter que les expressions échouant une évaluation sont supprimées, mais pas remplacées (on pourrait également mettre en place un quota par taille de l'entrée).
 Pour les unaires : ^2>>sqrt>inv>cos>arctan>abs>^3>exp>sin>tan>log.
 
-À noter que les pyuissnaces entières peuvent être obtenues avec de sbrancehs de multiuplication successives. Il faut donc considérer dans la proportion de leur apparition la correction de celles déjà générées par simple construction de l'arbre.
+À noter que les puissnaces entières peuvent être obtenues avec des branches de multiplication successives. Il faut donc considérer dans la proportion de leur apparition la correction de celles déjà générées par simple construction de l'arbre.
 
 
 $$$Lample 2019$$$
@@ -99,7 +99,7 @@ bird: transformers for longer sequences (arXiv:2007.14062)
 
 $$$Martiuus et al 2016 (operators-activated FCNN)$$$
 
-L'objectif principal ici est l'extrapolation : on eentraînera un nouveau modèle pour chaque système physique. 
+L'objectif principal ici est l'extrapolation : on entraînera un nouveau modèle pour chaque système physique. 
 
 Note : au-delà de la science, fabriquer des opérations réalistes permet de généraliser avec pertinence hors du domaine connu (réponse à pourquoi ne se contente-t-on pas d'interpoler). Say for practical applications, eg robotics/.
 
